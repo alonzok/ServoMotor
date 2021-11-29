@@ -49,9 +49,8 @@ public class ServoMotor implements Runnable {
 						item = rs.getString("active");
 					}
 
-					// En caso de que la bandera sea 1, se mueve el servo del valor mÌnimo al valor
-					// m·ximo y del valor m·ximo al valor mÌnimo.
-//					System.out.println(rcServo0.getPosition());
+					// En caso de que la bandera sea 1, se mueve el servo del valor m√≠nimo al valor
+					// m√°ximo y del valor m√°ximo al valor m√≠nimo.
 					if (item.compareTo("1") == 0) {
 						rcServo0.setTargetPosition(rcServo0.getPosition() + 3);
 						rcServo0.setEngaged(true);
