@@ -12,7 +12,9 @@ import java.sql.Statement;
 import com.phidget22.PhidgetException;
 import com.phidget22.RCServo;
 
-// La clase implementa la interface Runnable, una interface de la librería Phidgets. 
+/**
+ * Clase principal del programa para controlar el servo motor. 
+ */
 public class ServoMotor implements Runnable {
 
 	// Se crea la variable para la conexión de la base de datos.
